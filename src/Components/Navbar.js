@@ -8,28 +8,31 @@ import {
     Content
 } from 'react-mdl'
 
+import Main from './Main'
+import { Link } from 'react-router-dom'
+
 function Navbar() {
     return (
        <div className="demo-big-content">
         <Layout>
             <Header title="Title" scroll>
                 <Navigation>
-                    <a href="/">Link</a>
-                    <a href="/">Link</a>
-                    <a href="/">Link</a>
-                    <a href="/">Link</a>
+                    <Link to="/resume">Resume</Link>
+                    <Link to="/aboutme">About Me</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/contact">Contact</Link>
                 </Navigation>
             </Header>
             <Drawer title="Title">
                 <Navigation>
-                    <a href="/">Link</a>
-                    <a href="/">Link</a>
-                    <a href="/">Link</a>
-                    <a href="/">Link</a>
+                    <Link to="/resume">Resume</Link>
+                    <Link to="/aboutme">About Me</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/contact">Contact</Link>
                 </Navigation>
             </Drawer>
             <Content>
-                <div className="page-content" />
+                <Main/> 
             </Content>
         </Layout>
     </div>
