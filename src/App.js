@@ -19,16 +19,16 @@ function App() {
          <Layout>
              <Header className="header-color" title="Title" scroll>
                  <Navigation>
-                     <Link to="/resume">Resume</Link>
                      <Link to="/aboutme">About Me</Link>
+                     <Link to="/resume">Resume</Link>
                      <Link to="/projects">Projects</Link>
                      <Link to="/contact">Contact</Link>
                  </Navigation>
              </Header>
              <Drawer title="Title">
                  <Navigation>
-                     <Link to="/resume">Resume</Link>
                      <Link to="/aboutme">About Me</Link>
+                     <Link to="/resume">Resume</Link>
                      <Link to="/projects">Projects</Link>
                      <Link to="/contact">Contact</Link>
                  </Navigation>
