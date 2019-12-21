@@ -12,6 +12,12 @@ import {
     CardMenu,
     IconButton
 } from 'react-mdl'
+
+
+
+
+
+
 class Projects extends Component {
 
      state = {
@@ -164,20 +170,20 @@ class Projects extends Component {
         return (
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
-                    <Tab>React Native</Tab>
-                    <Tab>React JS</Tab>
-                    <Tab>JavaScript</Tab>
-                    <Tab>Rails</Tab>
-                    <Tab>Ruby</Tab>
+                    <Tab style={{color: 'white'}}>React Native</Tab>
+                    <Tab style={{color: 'white'}}>React JS</Tab>
+                    <Tab style={{color: 'white'}}>JavaScript</Tab>
+                    <Tab style={{color: 'white'}}>Rails</Tab>
+                    <Tab style={{color: 'white'}}>Ruby</Tab>
                 </Tabs>
- 
-                    <Grid>
-                        <Cell col={12}>
+                <Grid>
+                    <Cell col={12}>
                             <div className="content">
                                 {this.toggleCategories()}
                             </div>
-                        </Cell>
-                    </Grid>
+                    </Cell>
+                </Grid>
+            
                     
             </div>
         )

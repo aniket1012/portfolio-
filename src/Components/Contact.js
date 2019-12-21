@@ -10,15 +10,20 @@ import {
 
 
 
+
+
 class Contact extends Component {
     render() {
         return (
+            
             <div className="contact-body">
+
+
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Aniket Patel</h2>
                         <img  
-                            src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" 
+                            src = "https://media.licdn.com/dms/image/C4D03AQG8gZcahkdOLg/profile-displayphoto-shrink_200_200/0?e=1582156800&v=beta&t=YVTRCr0XHjYnf1yXpQCoE445QJC8EYGAgEYk9BWGsDI"
                             alt=" avatar"
                             style={{
                                 height: "250px"
@@ -36,7 +41,7 @@ class Contact extends Component {
                          <div className="contact-list">
                             <List>
                                 <ListItem>
-                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
                                         <i className="fa fa-phone-square" aria-hidden="true"/>
                                         (732)-725-9077
                                     </ListItemContent>
@@ -44,7 +49,7 @@ class Contact extends Component {
 
 
                                 <ListItem>
-                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
                                         <i className="fa fa-envelope-square" aria-hidden="true"/>
                                         Aniketupatel1@gmail.com
                                     </ListItemContent>
@@ -52,7 +57,7 @@ class Contact extends Component {
 
 
                                 <ListItem>
-                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
                                         <i className="fa fa-slack" aria-hidden="true"/>
                                          Slack - Aniket Patel
                                     </ListItemContent>
