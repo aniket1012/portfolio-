@@ -40,7 +40,7 @@ class Projects extends Component {
                         } >
                             NutriPal 5.0
                         </CardTitle>
-                        <CardText>
+                        <CardText style={{fontSize: '20'}}>
                         React Native app to view, track, create, delete, & edit workouts to improve health & fitness goals
                         </CardText>
                         <CardActions border>
@@ -63,7 +63,7 @@ class Projects extends Component {
                             {
                                 color: '#fff',
                                 height: '176px',
-                                background: 'url(https://miro.medium.com/max/3200/1*PHUyljg7hpvQizZWeHLMjw.png) center / cover'
+                                background: 'url(https://miro.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'
                             }
                         } >
                             NutriPal
@@ -90,7 +90,7 @@ class Projects extends Component {
                             {
                                 color: '#fff',
                                 height: '176px',
-                                background: 'url(https://miro.medium.com/max/3200/1*PHUyljg7hpvQizZWeHLMjw.png) center / cover'
+                                background: 'url(https://cdnp0.stackassets.com/0ed03323472fb7c5307f0e2e27df0d6a4def615b/store/00475518e7fc176eebd75bd02d948be3bd319c3765fd12f0aa54c00b2710/sale_19736_primary_image_wide.jpg) center / cover'
                             }
                         } >
                             JS
@@ -117,17 +117,17 @@ class Projects extends Component {
                             {
                                 color: '#fff',
                                 height: '176px',
-                                background: 'url(https://miro.medium.com/max/3200/1*PHUyljg7hpvQizZWeHLMjw.png) center / cover'
+                                background: 'url(https://miro.medium.com/max/3840/1*6h1kck2QmGaC89ERN_W3UA.jpeg) center / cover'
                             }
                         } >
-                            NutriPal 5.0 Back-End
+                            HappyTrails
                         </CardTitle>
                         <CardText>
-                        React Native app to view, track, create, delete, & edit workouts to improve health & fitness goals
+                        Ruby on Rails web app to explore and review hiking trails in the greater New York City area
                         </CardText>
                         <CardActions border>
-                        <Button colored href="https://github.com/aniket1012/Nutripal5.0-frontend">GitHub</Button>
-                        <Button colored href="https://vimeo.com/361113781">Demo</Button>
+                        <Button colored href="https://github.com/smitham50/rails-project-mode-nyc-web-051319">GitHub</Button>
+                        <Button colored href="https://vimeo.com/361117725">Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share"/>
@@ -144,7 +144,7 @@ class Projects extends Component {
                             {
                                 color: '#fff',
                                 height: '176px',
-                                background: 'url(https://miro.medium.com/max/3200/1*PHUyljg7hpvQizZWeHLMjw.png) center / cover'
+                                background: 'url(https://wallpaperstock.net/wallpapers/thumbs1/42830wide.jpg) center / cover'
                             }
                         } >
                             Ripe Eggplant

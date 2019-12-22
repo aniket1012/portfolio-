@@ -31,7 +31,7 @@ class Contact extends Component {
                         />
                         <p style={{width: "75%", margin: "auto", paddingTop: "1em"}}>
                              Electrical Engineer who discovered a passion
-                             for full stack software development.Diligent front - and back - end developer experienced in Javascript, React / Redux, React Native, Thunk, Ruby on Rails, HTML5, CSS, who wishes to pursue his passion
+                             for full stack software development. Diligent front - and back - end developer experienced in Javascript, React / Redux, React Native, Thunk, Ruby on Rails, HTML5, CSS, who wishes to pursue his passion
                              for developing stunning web applications and intuitive user experiences.
                         </p>
                     </Cell>
