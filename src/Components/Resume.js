@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl'
 
 import Education from './Education'
+import Experience from './Experience'
+import Skills from './Skills'
 
  
 
@@ -46,10 +48,7 @@ class Resume extends Component {
                             startYear={2019}
                             endYear={2019}
                             schoolName="The Flatiron School"
-                            schoolDescription = "Full-stack web development with proven curriculum and passionate instructors alongside a driven student community. Full Stack Web Development, Ruby on Rails and JavaScript immersive program. 
-                            Engineered procedural CLI following Ruby OOP principles and best practices. 
-                            Built RESTful API using Ruby on Rails and the MVC pattern. Configured RESTful Rails API with ActiveModel Serializer.
-                             Built ground up front - end, back - end, full - stack web application projects "
+                            schoolDescription = "Full-stack Web-Devlopment Software-Engineering Immersive"
                         />
                         <Education
                             startYear={2010}
@@ -60,9 +59,64 @@ class Resume extends Component {
                         <hr style={{borderTop: '3px solid #fff'}}/>
 
                         <h2>Experience</h2>
+                        <Experience
+                            startYear='May 2017'
+                            endYear='Dec 2018'
+                            jobName="New York City Transit Authority"
+                            jobTitle="Assistant Electrical Engineer"
+                            jobDescription1 = "- Analyzed and corrected  code system architecture."
+                            jobDescription2 = "- Facilitated prompt response time to submittals received from general contractors of various projects"
+                            jobDescription3 = "- Collaborated with industry leading signal system manufacturers to facilitate installation and modernization of New York City Transit Authority revenue train lines."
+                            jobDescription4 = "- Completed multiple factory inspections of NYCT code system racks for quality assurance and design accuracy."
+                        />
 
-                        
+                        <Experience
+                            startYear='Nov 2016'
+                            endYear='May 2017'
+                            jobName="Alpha Assembly Solutions"
+                            jobTitle="Energy Technology Analyst"
+                            jobDescription1 = "- Analyzed and corrected  code system architecture."
+                            jobDescription2 = "- Analyzed the printed electronics market space for potential gaps, for Alpha Assembly Solutions to investigate."
+                        />
 
+                        <Experience
+                            startYear='Aug 2015'
+                            endYear='Jan 2016'
+                            jobName="Chelsea Lighting & Controls Inc."
+                            jobTitle= "Estimating Coordinator"
+                            jobDescription1 = "- Streamlined architectural and engineering drawings for all lighting specifications and requirements on large scale single and multiphase projects across New York City."
+                            jobDescription2 = "- Controlled documentation of correct lighting fixtures specifications, drawings, emergency requirements, and company quotes for approved projects."
+                        />
+                        <hr style={{borderTop: '3px solid #fff'}}/>
+                        <h2>Skills</h2>
+                        <Skills 
+                            skill="React-Native"
+                            progress="100"
+                        />
+                        <Skills 
+                            skill="React"
+                            progress="100"
+                        />
+                        <Skills 
+                            skill="JavaScript"
+                            progress="75"
+                        />
+                        <Skills 
+                            skill="Rails"
+                            progress="75"
+                        />
+                        <Skills 
+                            skill="Ruby"
+                            progress="100"
+                        />
+                        <Skills 
+                            skill="HTML"
+                            progress="80"
+                        />
+                        <Skills 
+                            skill="CSS"
+                            progress="50"
+                        />
 
                     </Cell> 
                 </Grid>

@@ -8,7 +8,21 @@ import {
 
 } from 'react-mdl'
 
+import Particles from 'react-particles-js';
 
+
+const particleOpt = {
+    particles: {
+        number: { 
+            value: 150,
+            density: {
+                enable: true,
+                value_area: 800
+            }
+        } 
+    }
+    
+}
 
 
 
@@ -17,9 +31,10 @@ class Contact extends Component {
         return (
             
             <div className="contact-body">
-
+               
 
                 <Grid className="contact-grid">
+                    
                     <Cell col={6}>
                         <h2>Aniket Patel</h2>
                         <img  
@@ -68,6 +83,9 @@ class Contact extends Component {
                          
                     </Cell>
                  </Grid>
+                  <Particles 
+                    params={particleOpt}
+                />
             </div>
         )
     }

@@ -17,16 +17,14 @@ function App() {
   return (
     < div className = "demo-big-content" >
          <Layout>
-             <Header className="header-color" title="Menu" scroll>
+             <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to='/'>Aniket Patel</Link>} scroll>
                  <Navigation>
-                     <Link to="/" style={{fontSize: 18}}>Home</Link>
                      <Link to="/aboutme" style={{fontSize: 18}}>About Me</Link>
                      <Link to="/contact" style={{fontSize: 18}}>Contact</Link>
                  </Navigation>
              </Header>
-             <Drawer title="Menu">
+             <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to='/'>Home</Link>}>
                  <Navigation>
-                     <Link to="/" style={{fontSize: 18}}>Home</Link>
                      <Link to="/aboutme" style={{fontSize: 18}}>About Me</Link>
                      <Link to="/resume" style={{fontSize: 18}}>Resume</Link>
                      <Link to="/projects" style={{fontSize: 18}}>Projects</Link>

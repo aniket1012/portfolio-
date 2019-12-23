@@ -40,7 +40,8 @@ class LandingPage extends Component {
                             className="avatar-img"
                         />
                         <div className="banner-text">
-                            <h1>Full Stack Web Developer</h1>
+                            <h1>Aniket Patel</h1>
+                            <h2 style={{color: 'white'}}>Full Stack Web Developer</h2>
 
                         <hr/>
                     <p> HTML/CSS | Ruby | Rails | JavaScript | React | React Native</p>
