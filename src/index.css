@@ -6,11 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: #485563;
+  /* background: #485563; */
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #29323c, #485563);
+  /* background: -webkit-linear-gradient(to right, #29323c, #485563); */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #29323c, #485563);
+  /* background: linear-gradient(to right, #29323c, #485563); */
 }
 
 code {

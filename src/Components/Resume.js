@@ -22,34 +22,30 @@ class Resume extends Component {
                                 style={{height: '200px', paddingTop:'2em'}}
                             />
                         </div>
-                        <h2 style={{paddingTop: '1em', textAlign: 'center'}}>Aniket Patel</h2>
-                        <h4 style={{color:'grey', textAlign:'center'}}>Full Stack Developer</h4>
+                        <h2 style={{paddingTop: '1em', textAlign: 'center', color: "white"}}>Aniket Patel</h2>
+                        <h4 style={{color:'white', textAlign:'center'}}>Full Stack Developer</h4>
                         <hr stlye={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                        <p>
-                            Electrical Engineer who discovered a passion for full stack software development.
-                            Diligent front- and back-end developer experienced in Javascript, React/Redux, React Native, 
-                            Thunk, Ruby on Rails, HTML5, CSS, who wishes to pursue his passion for developing stunning web 
-                            applications and intuitive user experiences.
+                        <p style={{color: "white"}}>
+                            Software engineer with a background in electrical engineering. Experience in data analytics, supply chain analytics and coding architecture. Developer of stunning web applications and intuitive user experiences.
                         </p>
                         <hr stlye={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                        <h5>Address</h5>
-                        <p>New York, NY</p>
-                        <h5>Phone</h5>
-                        <p>+1 (732)-725-9077</p>
-                        <h5>Email</h5>
-                        <p>Aniketupatel1@gmail.com</p>
-                        <h5>Website</h5>
-                        <p>mywebsite.com</p>
+                        <h3 style={{color: "white"}}>Phone</h3>
+                        <p style={{color: "white"}}>+1 (732)-725-9077</p>
+                        <h3 style={{color: "white"}}>Email</h3>
+                        <p style={{color: "white"}}>Aniketupatel1@gmail.com</p>
+                        <h3 style={{color: "white"}}>Website</h3>
+                        <p style={{color: "white"}}>mywebsite.com</p>
                         <hr stlye={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                        <h4>Skills</h4>
-                        <p>Ruby</p>
-                        <p>Rails</p>
-                        <p>Javascript</p>
-                        <p>React</p>
-                        <p>React Native</p>
-                        <p>Node.js</p>
-                        <p>Redux</p>
-                        <p>Thunk</p>
+                        <h2 style={{color: "white"}}>Skills</h2>
+                        <h4 style={{color: "white", textAlign: 'center'}}>HTML</h4>
+                        <h4 style={{color: "white", textAlign: 'center'}}>CSS</h4>
+                        <h4 style={{color: "white", textAlign: 'center'}}>Ruby</h4>
+                        <h4 style={{color: "white", textAlign: 'center'}}>Rails</h4>
+                        <h4 style={{color: "white", textAlign: 'center'}}>Javascript</h4>
+                        <h4 style={{color: "white", textAlign: 'center'}}>React</h4>
+                        <h4 style={{color: "white", textAlign: 'center'}}>React Native</h4>
+                        <h4 style={{color: "white", textAlign: 'center'}}>Redux</h4>
+                        <h4 style={{color: "white", textAlign: 'center'}}>Thunk</h4>
                     </Cell> 
                     <Cell className="resume-right-col" col={8}>
                         <h2>Education</h2>

@@ -93,14 +93,14 @@ class Projects extends Component {
                                 background: 'url(https://cdnp0.stackassets.com/0ed03323472fb7c5307f0e2e27df0d6a4def615b/store/00475518e7fc176eebd75bd02d948be3bd319c3765fd12f0aa54c00b2710/sale_19736_primary_image_wide.jpg) center / cover'
                             }
                         } >
-                            JS
+                            JS Trivia
                         </CardTitle>
                         <CardText>
-                        React Native app to view, track, create, delete, & edit workouts to improve health & fitness goals
+                        Vanilla JavaScript Jepordy Clone
                         </CardText>
                         <CardActions border>
-                        <Button colored href="https://github.com/aniket1012/Nutripal5.0-frontend">GitHub</Button>
-                        <Button colored href="https://vimeo.com/361113781">Demo</Button>
+                        <Button colored href="https://github.com/aniket1012/Module-3-Project-">GitHub</Button>
+                        <Button colored href="https://">Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share"/>
@@ -136,33 +136,33 @@ class Projects extends Component {
                  </div>
              )
          }
-         else if (this.state.activeTab === 4) {
-             return (
-                 <div className="projects-grid">
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        < CardTitle style = {
-                            {
-                                color: '#fff',
-                                height: '176px',
-                                background: 'url(https://wallpaperstock.net/wallpapers/thumbs1/42830wide.jpg) center / cover'
-                            }
-                        } >
-                            Ripe Eggplant
-                        </CardTitle>
-                        <CardText>
-                        CLI Movie Review Application 
-                        </CardText>
-                        <CardActions border>
-                        <Button colored href="https://github.com/aniket1012/Nutripal5.0-frontend">GitHub</Button>
-                        <Button colored href="https://vimeo.com/361113781">Demo</Button>
-                        </CardActions>
-                        <CardMenu style={{color: '#fff'}}>
-                            <IconButton name="share"/>
-                        </CardMenu>
-                    </Card>
-                 </div>
-             )
-         }
+        //  else if (this.state.activeTab === 4) {
+        //      return (
+        //          <div className="projects-grid">
+        //             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+        //                 < CardTitle style = {
+        //                     {
+        //                         color: '#fff',
+        //                         height: '176px',
+        //                         background: 'url(https://wallpaperstock.net/wallpapers/thumbs1/42830wide.jpg) center / cover'
+        //                     }
+        //                 } >
+        //                     Ripe Eggplant
+        //                 </CardTitle>
+        //                 <CardText>
+        //                 CLI Movie Review Application 
+        //                 </CardText>
+        //                 <CardActions border>
+        //                 <Button colored href="https://github.com/aniket1012/Nutripal5.0-frontend">GitHub</Button>
+        //                 <Button colored href="https://vimeo.com/361113781">Demo</Button>
+        //                 </CardActions>
+        //                 <CardMenu style={{color: '#fff'}}>
+        //                     <IconButton name="share"/>
+        //                 </CardMenu>
+        //             </Card>
+        //          </div>
+        //      )
+        //  }
      }
 
 
@@ -173,8 +173,7 @@ class Projects extends Component {
                     <Tab style={{color: 'white'}}>React Native</Tab>
                     <Tab style={{color: 'white'}}>React JS</Tab>
                     <Tab style={{color: 'white'}}>JavaScript</Tab>
-                    <Tab style={{color: 'white'}}>Rails</Tab>
-                    <Tab style={{color: 'white'}}>Ruby</Tab>
+                    <Tab style={{color: 'white'}}>Ruby/Rails</Tab>
                 </Tabs>
                 <Grid>
                     <Cell col={12}>

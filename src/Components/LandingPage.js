@@ -4,22 +4,7 @@ import {
     Cell
 } from 'react-mdl'
 
-import Particles from 'react-particles-js';
 import profilePic from '../../src/ProfileImg.png'
-
-
-const particleOpt = {
-    particles: {
-        number: { 
-            value: 150,
-            density: {
-                enable: true,
-                value_area: 800
-            }
-        } 
-    }
-    
-}
 
 
 
@@ -29,16 +14,16 @@ class LandingPage extends Component {
         return (
             <div style={{width: '100%', margin: 'auto'}}>
 
-                <Particles 
-                    params={particleOpt}
-                />
-
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 
                             src = {profilePic}
                             alt="avatar"
                             className="avatar-img"
+                            style={{
+                                height: "250px",
+                                borderRadius: "20px"
+                            }}
                         />
                         <div className="banner-text">
                             <h1>Aniket Patel</h1>

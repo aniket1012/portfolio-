@@ -9,6 +9,7 @@ import {
 } from 'react-mdl'
 
 import Particles from 'react-particles-js';
+import profileImg from '../../src/ProfileImg.png'
 
 
 const particleOpt = {
@@ -38,10 +39,11 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>Aniket Patel</h2>
                         <img  
-                            src = "https://media.licdn.com/dms/image/C4D03AQG8gZcahkdOLg/profile-displayphoto-shrink_200_200/0?e=1582156800&v=beta&t=YVTRCr0XHjYnf1yXpQCoE445QJC8EYGAgEYk9BWGsDI"
+                            src = {profileImg}
                             alt=" avatar"
                             style={{
-                                height: "250px"
+                                height: "250px",
+                                borderRadius: "20px"
                             }}
                         />
                         <p style={{width: "75%", margin: "auto", paddingTop: "1em"}}>
