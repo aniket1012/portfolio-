@@ -4,6 +4,8 @@ import { Grid, Cell } from 'react-mdl'
 import Education from './Education'
 import Experience from './Experience'
 import Skills from './Skills'
+import profilepic from '../../src/ProfileImg.png'
+
 
  
 
@@ -15,7 +17,7 @@ class Resume extends Component {
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
                             <img 
-                                src = "https://media.licdn.com/dms/image/C4D03AQG8gZcahkdOLg/profile-displayphoto-shrink_200_200/0?e=1582156800&v=beta&t=YVTRCr0XHjYnf1yXpQCoE445QJC8EYGAgEYk9BWGsDI"
+                                src = {profilepic}
                                 alt='avatar'
                                 style={{height: '200px', paddingTop:'2em'}}
                             />
@@ -39,6 +41,15 @@ class Resume extends Component {
                         <h5>Website</h5>
                         <p>mywebsite.com</p>
                         <hr stlye={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                        <h4>Skills</h4>
+                        <p>Ruby</p>
+                        <p>Rails</p>
+                        <p>Javascript</p>
+                        <p>React</p>
+                        <p>React Native</p>
+                        <p>Node.js</p>
+                        <p>Redux</p>
+                        <p>Thunk</p>
                     </Cell> 
                     <Cell className="resume-right-col" col={8}>
                         <h2>Education</h2>
@@ -88,36 +99,6 @@ class Resume extends Component {
                             jobDescription2 = "- Controlled documentation of correct lighting fixtures specifications, drawings, emergency requirements, and company quotes for approved projects."
                         />
                         <hr style={{borderTop: '3px solid #fff'}}/>
-                        <h2>Skills</h2>
-                        <Skills 
-                            skill="React-Native"
-                            progress="100"
-                        />
-                        <Skills 
-                            skill="React"
-                            progress="100"
-                        />
-                        <Skills 
-                            skill="JavaScript"
-                            progress="75"
-                        />
-                        <Skills 
-                            skill="Rails"
-                            progress="75"
-                        />
-                        <Skills 
-                            skill="Ruby"
-                            progress="100"
-                        />
-                        <Skills 
-                            skill="HTML"
-                            progress="80"
-                        />
-                        <Skills 
-                            skill="CSS"
-                            progress="50"
-                        />
-
                     </Cell> 
                 </Grid>
             </div>

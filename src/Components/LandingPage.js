@@ -5,6 +5,7 @@ import {
 } from 'react-mdl'
 
 import Particles from 'react-particles-js';
+import profilePic from '../../src/ProfileImg.png'
 
 
 const particleOpt = {
@@ -35,7 +36,7 @@ class LandingPage extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 
-                            src = 'https://media.licdn.com/dms/image/C4D03AQG8gZcahkdOLg/profile-displayphoto-shrink_200_200/0?e=1582156800&v=beta&t=YVTRCr0XHjYnf1yXpQCoE445QJC8EYGAgEYk9BWGsDI'
+                            src = {profilePic}
                             alt="avatar"
                             className="avatar-img"
                         />
@@ -43,22 +44,20 @@ class LandingPage extends Component {
                             <h1>Aniket Patel</h1>
                             <h2 style={{color: 'white'}}>Full Stack Web Developer</h2>
 
-                        <hr/>
-                    <p> HTML/CSS | Ruby | Rails | JavaScript | React | React Native</p>
-                    <div className="social-links">
+                            <hr/>
+                            <p> HTML/CSS | Ruby | Rails | JavaScript | React | React Native</p>
+                            <div className="social-links">
 
                         {/* LinkedIn */}
-                        <a href="https://www.linkedin.com/in/aniketupatel/" rel="noopener noreferrer" target="_blank" >
+                            <a href="https://www.linkedin.com/in/aniketupatel/" rel="noopener noreferrer" target="_blank" >
                             <i className="fa fa-linkedin-square"  aria-hidden="true"/>  
-                        </a>
+                            </a>
 
                         {/* GitHub */}
-                        <a href="https://github.com/aniket1012" rel="noopener noreferrer" target="_blank">
+                            <a href="https://github.com/aniket1012" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-github-square"  aria-hidden="true"/>  
-                        </a>
-
-
-                    </div>
+                            </a>
+                            </div>
                         </div>
                     </Cell>
                 </Grid>
