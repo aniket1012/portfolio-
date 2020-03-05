@@ -8,22 +8,10 @@ import {
 
 } from 'react-mdl'
 
-import Particles from 'react-particles-js';
 import profileImg from '../../src/ProfileImg.png'
 
 
-const particleOpt = {
-    particles: {
-        number: { 
-            value: 150,
-            density: {
-                enable: true,
-                value_area: 800
-            }
-        } 
-    }
-    
-}
+
 
 
 
@@ -47,9 +35,7 @@ class Contact extends Component {
                             }}
                         />
                         <p style={{width: "75%", margin: "auto", paddingTop: "1em"}}>
-                             Electrical Engineer who discovered a passion
-                             for full stack software development. Diligent front - and back - end developer experienced in Javascript, React / Redux, React Native, Thunk, Ruby on Rails, HTML5, CSS, who wishes to pursue his passion
-                             for developing stunning web applications and intuitive user experiences.
+                             Software engineer with a background in electrical engineering. Experience in data analytics, supply chain analytics and coding architecture. Developer of stunning web applications and intuitive user experiences.
                         </p>
                     </Cell>
                     <Cell col={6}>
@@ -85,9 +71,7 @@ class Contact extends Component {
                          
                     </Cell>
                  </Grid>
-                  <Particles 
-                    params={particleOpt}
-                />
+               
             </div>
         )
     }

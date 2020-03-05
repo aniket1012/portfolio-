@@ -20,14 +20,12 @@ class LandingPage extends Component {
                             src = {profilePic}
                             alt="avatar"
                             className="avatar-img"
-                            style={{
-                                height: "250px",
-                                borderRadius: "20px"
-                            }}
+                            
                         />
                         <div className="banner-text">
                             <h1>Aniket Patel</h1>
                             <h2 style={{color: 'white'}}>Full Stack Web Developer</h2>
+                            <h3 style={{color: 'white'}}>My Portfolio</h3>
 
                             <hr/>
                             <p> HTML/CSS | Ruby | Rails | JavaScript | React | React Native</p>

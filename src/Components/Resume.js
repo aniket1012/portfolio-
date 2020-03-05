@@ -19,7 +19,7 @@ class Resume extends Component {
                             <img 
                                 src = {profilepic}
                                 alt='avatar'
-                                style={{height: '200px', paddingTop:'2em'}}
+                                style={{height: '200px', padding:'2em', borderRadius: '5em'}}
                             />
                         </div>
                         <h2 style={{paddingTop: '1em', textAlign: 'center', color: "white"}}>Aniket Patel</h2>
@@ -28,6 +28,7 @@ class Resume extends Component {
                         <p style={{color: "white"}}>
                             Software engineer with a background in electrical engineering. Experience in data analytics, supply chain analytics and coding architecture. Developer of stunning web applications and intuitive user experiences.
                         </p>
+
                         <hr stlye={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <h3 style={{color: "white"}}>Phone</h3>
                         <p style={{color: "white"}}>+1 (732)-725-9077</p>
@@ -36,16 +37,18 @@ class Resume extends Component {
                         <h3 style={{color: "white"}}>Website</h3>
                         <p style={{color: "white"}}>mywebsite.com</p>
                         <hr stlye={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+
+                        <br></br>
                         <h2 style={{color: "white"}}>Skills</h2>
-                        <h4 style={{color: "white", textAlign: 'center'}}>HTML</h4>
-                        <h4 style={{color: "white", textAlign: 'center'}}>CSS</h4>
-                        <h4 style={{color: "white", textAlign: 'center'}}>Ruby</h4>
-                        <h4 style={{color: "white", textAlign: 'center'}}>Rails</h4>
-                        <h4 style={{color: "white", textAlign: 'center'}}>Javascript</h4>
-                        <h4 style={{color: "white", textAlign: 'center'}}>React</h4>
-                        <h4 style={{color: "white", textAlign: 'center'}}>React Native</h4>
-                        <h4 style={{color: "white", textAlign: 'center'}}>Redux</h4>
-                        <h4 style={{color: "white", textAlign: 'center'}}>Thunk</h4>
+
+                        <br></br>
+                        <h4 class="icon-html5-alt" style={{color: "white", textAlign: 'center'}}>HTML5</h4>
+                        <h4 class="icon-css3-alt" style={{color: "white", textAlign: 'center'}}>CSS</h4>
+                        <h4 class="icon-ruby" style={{color: "white", textAlign: 'center'}}>Ruby</h4>
+                        <h4 class="icon-ruby-on-rails-alt" style={{color: "white", textAlign: 'center'}}>Rails</h4>
+                        <h4 class="icon-javascript-alt" style={{color: "white", textAlign: 'center'}}>Javascript</h4>
+                        <h4 class="icon-reactjs" style={{color: "white", textAlign: 'center'}}>React</h4>
+                        <h4 class="icon-reactjs" style={{color: "white", textAlign: 'center'}}>React Native</h4>
                     </Cell> 
                     <Cell className="resume-right-col" col={8}>
                         <h2>Education</h2>
