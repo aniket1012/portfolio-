@@ -3,7 +3,6 @@ import { Grid, Cell } from 'react-mdl'
 
 import Education from './Education'
 import Experience from './Experience'
-import Skills from './Skills'
 import profilepic from '../../src/ProfileImg.png'
 
 
@@ -25,30 +24,30 @@ class Resume extends Component {
                         <h2 style={{paddingTop: '1em', textAlign: 'center', color: "white"}}>Aniket Patel</h2>
                         <h4 style={{color:'white', textAlign:'center'}}>Full Stack Developer</h4>
                         <hr stlye={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                        <p style={{color: "white"}}>
+                        <h6 style={{color: "white"}}>
                             Software engineer with a background in electrical engineering. Experience in data analytics, supply chain analytics and coding architecture. Developer of stunning web applications and intuitive user experiences.
-                        </p>
+                        </h6>
 
                         <hr stlye={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <h3 style={{color: "white"}}>Phone</h3>
-                        <p style={{color: "white"}}>+1 (732)-725-9077</p>
+                        <h5 style={{color: "white"}}>+1 (732)-725-9077</h5>
                         <h3 style={{color: "white"}}>Email</h3>
-                        <p style={{color: "white"}}>Aniketupatel1@gmail.com</p>
+                        <h5 style={{color: "white"}}>Aniketupatel1@gmail.com</h5>
                         <h3 style={{color: "white"}}>Website</h3>
-                        <p style={{color: "white"}}>mywebsite.com</p>
+                        <h5 style={{color: "white"}}>mywebsite.com</h5>
                         <hr stlye={{borderTop: '3px solid #833fb2', width: '50%'}}/>
 
                         <br></br>
                         <h2 style={{color: "white"}}>Skills</h2>
 
                         <br></br>
-                        <h4 class="icon-html5-alt" style={{color: "white", textAlign: 'center'}}>HTML5</h4>
-                        <h4 class="icon-css3-alt" style={{color: "white", textAlign: 'center'}}>CSS</h4>
-                        <h4 class="icon-ruby" style={{color: "white", textAlign: 'center'}}>Ruby</h4>
-                        <h4 class="icon-ruby-on-rails-alt" style={{color: "white", textAlign: 'center'}}>Rails</h4>
-                        <h4 class="icon-javascript-alt" style={{color: "white", textAlign: 'center'}}>Javascript</h4>
-                        <h4 class="icon-reactjs" style={{color: "white", textAlign: 'center'}}>React</h4>
-                        <h4 class="icon-reactjs" style={{color: "white", textAlign: 'center'}}>React Native</h4>
+                        <h4 class="icon-html5-alt" style={{color: "white", textAlign: 'center'}}> HTML5</h4>
+                        <h4 class="icon-css3-alt" style={{color: "white", textAlign: 'center'}}> CSS</h4>
+                        <h4 class="icon-ruby" style={{color: "white", textAlign: 'center'}}> Ruby</h4>
+                        <h4 class="icon-ruby-on-rails-alt" style={{color: "white", textAlign: 'center'}}> Rails</h4>
+                        <h4 class="icon-javascript-alt" style={{color: "white", textAlign: 'center'}}>J avascript</h4>
+                        <h4 class="icon-reactjs" style={{color: "white", textAlign: 'center'}}> React</h4>
+                        <h4 class="icon-reactjs" style={{color: "white", textAlign: 'center'}}> React Native</h4>
                     </Cell> 
                     <Cell className="resume-right-col" col={8}>
                         <h2>Education</h2>

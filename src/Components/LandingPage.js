@@ -28,7 +28,7 @@ class LandingPage extends Component {
                             <h3 style={{color: 'white'}}>My Portfolio</h3>
 
                             <hr/>
-                            <p> HTML/CSS | Ruby | Rails | JavaScript | React | React Native</p>
+                            <p> HTML/CSS | Ruby | Rails | JavaScript | React | React Native | SQL | + (...)</p>
                             <div className="social-links">
 
                         {/* LinkedIn */}
